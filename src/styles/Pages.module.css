@@ -1,0 +1,349 @@
+/* styles/Pages.css */
+
+/* Colors:
+   Blue: #8AF4FF;
+   Yellow: #CEC87A;
+   Pink: #e31658;
+
+/* Here i set the page base styles */
+
+.body {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.master_div {
+    width: 100%;
+    height: 100%;
+    display: contents;
+}
+
+/* Here i set the personal info side bar styles */
+
+.personal_info {
+    background-image: url('../../public/bg.png');
+    min-width: 30%;
+    max-width: 30%;
+    display: inline-block;
+}
+
+.profile_pic {
+    position: relative;
+    max-width: 50%;
+    border-radius: 50%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.profile_name {
+    background-color: #14181B;
+    padding: 10px;
+    color: #e31658;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 1%;
+}
+
+.profile_job {
+    color: #f8f8f8;
+    background-color: #14181B;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 1%;
+}
+
+.profile_resume {
+    color: #f8f8f8;
+    background-color: #14181B;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 1%;
+}
+
+.profile_details {
+    color: #f8f8f8;
+    background-color: #14181B;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 1%;
+}
+
+.brazil_flag {
+    position: relative;
+    max-width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 1%;
+}
+
+/* Here i set the description panel */
+
+.extra_info {
+    background-color: #ffffff;
+    min-width: 70%;
+    max-width: 70%;
+    padding: 2%;
+    display: inline-block;
+}
+
+/* Here i set the about me */
+
+.about_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.about_text {
+    font-size: 20px;
+}
+
+.points {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.points_text {
+    font-size: 20px;
+}
+
+.code_languages {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.code_languages_text {
+    font-size: 18px;
+}
+
+.describe_me {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.describe_me_text {
+    font-size: 20px;
+}
+
+/* Here i set the training */
+
+.training_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.training_text {
+    font-size: 25px;
+}
+
+.training_why_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.training_why_text {
+    padding: 8px;
+    color: #4acedb;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+/* Here i set the publications */
+
+.publications_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.publications_text {
+    font-size: 25px;
+}
+
+.publications_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.publications_text {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.books_cover {
+    position: relative;
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Here i set the courses */
+
+.courses_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+
+.courses_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.courses_text {
+    padding: 2px;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+/* Here i set the skills */
+
+.skills_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+
+.publications_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.skills_text {
+    padding: 8px;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+/* Here i set the projects */
+
+.projects_header {
+    padding: 2px;
+    color: #e31658;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+
+.projects_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.projects_text {
+    padding: 8px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+/* Here i set the contact */
+
+.contact_header {
+    padding: 8px;
+    color: #e31658;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.contact_text {
+    font-size: 35px;
+}
+
+.contact_div {
+    background-color: #ffffff;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.contact_text {
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.contact_icons {
+    max-width: 25%;
+}

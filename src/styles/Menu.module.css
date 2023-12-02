@@ -1,0 +1,36 @@
+/* styles/Menu.module.css */
+
+.menuContainer {
+  background-color: #14181B;
+  padding: 10px;
+  padding-left: 30%;
+}
+
+.menuList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menuItem {
+  margin-right: 15px;
+}
+
+.menuSpan {
+  color: #CEC87A;
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menuLink:hover {
+  color: #61dafb;
+}
